@@ -1,20 +1,17 @@
-public class Exceptionhandling {
-    public static void main(String[] args) throws MyException {
-        // Handling the exceptions
-        try {
-            int result = 2 / 0;
-        } catch(Exception e) {
-            System.out.println("Exception Occured!");
-        }
-            // throw new Exception("Cannot divide by zero");
-            // System.out.println(result);
-        
-    }
+public class exceptionhandling
+ {
 
-    class MyException extends Exception {
-        public void show() {
-            System.out.println("Exception..");
-        }
-    }
+    public static void main(String[] args)
+    {
+
+try{
+    int result = 2 / 0;
+      System.out.println(result);
+      
+   }catch(Exception ae){
+        System.out.println("cannot divide by zero ");
+}
+}
 }
     
+
